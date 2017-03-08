@@ -1,0 +1,2 @@
+# hexoconfig
+hexo blog config
