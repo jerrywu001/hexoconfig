@@ -65,6 +65,12 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: anatole
 
+archive_generator:
+  per_page: 0
+  yearly: false
+  monthly: false
+  daily: false
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
@@ -72,23 +78,3 @@ deploy:
   repo: git@github.com:jerrywu001/jerrywu001.github.io.git
   branch: master
   messgae: update - {{ now('YYYY-MM-DD HH:mm:ss') }})
-
-#jsonContent
-jsonContent:
-  meta: false
-  pages: false
-  posts:
-    title: true
-    date: true
-    path: true
-    text: true
-    raw: false
-    content: false
-    slug: false
-    updated: false
-    comments: false
-    link: false
-    permalink: false
-    excerpt: false
-    categories: false
-    tags: true
